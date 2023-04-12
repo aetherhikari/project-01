@@ -6,15 +6,15 @@ function setup() {
 }
 
 function draw() {
-  fill(0, 12);
+  fill(40, 12);
   rect(0, 0, width, height);
   fill(155,55,203);
   noStroke();
   if (mouseIsPressed) {
-    fill(230,15,220);
+    fill(30,150,200, 50);
     noStroke();
   } else {
-    fill(220, 12)
+    fill(205,50,30,50)
     noStroke();
   }
   ellipse(mouseX, mouseY, 60, 60);
